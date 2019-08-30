@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="btn-group my-3" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary mr-1">Previus article</button>
+    <button type="button" class="btn btn-secondary">Next article</button>
+</div>
+<h2>{{article_header}}</h2>
+<img src="data:../../images/phenylalanine.png" class="img-fluid" alt="Responsive image">
+
+<p>{{article_text}}</p>
+
+{% endblock %}
